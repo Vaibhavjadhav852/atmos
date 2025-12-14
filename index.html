@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <main>
+        <div class="top">
+            <h1>Atmos</h1>
+            <div class="search-box">
+             <span class="search-icon">🔍</span>
+             <input type="text" placeholder="Search for any city..."  id="cityInput"/>
+             </div>
+
+        </div>
+        <div class="middle">
+            <div class="middle-p1"> 
+                <img id="weatherImg" src="./images/cloud.png" alt="">
+                <h1 id="temp">19°C</h1>
+                <h4 id="atmosphere">Clear Sky</h4>
+                <div class="divder"></div>
+                <div class="middle-bottom">
+                    <div class="heading">
+                        <i class="ri-map-pin-fill"></i>
+                        <h5 id="location">Maharatra, India</h5>
+                    </div>
+                    <div class="heading">
+                        <i class="ri-calendar-fill"></i>
+                        <h5 id="day">Saturday, December 13, 2025 at 08:07 PM</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="middle-p2">
+                <div class="cards1">
+                    <h4>Wind Satus</h4>
+                    <div class="wind-status">
+                        <div class="wind-bar"></div>
+                        <div class="wind-bar"></div>
+                        <div class="wind-bar"></div>
+                        <div class="wind-bar"></div>
+                        <div class="wind-bar"></div>
+                        <div class="wind-bar"></div>
+                        <div class="wind-bar"></div>
+                    </div>
+                    <h2 id="windd">2.2 <span>km/h</span></h2>
+                    <h4>Updated now</h4>
+                </div>
+                <div class="cards1">
+                    <h4>UV Index</h4>
+                    <div class="uv-gauge">
+                        <div class="uv-gauge-inner"></div>
+                    </div>
+                    <h2>5.5<span>UV</span></h2>
+                    <h4>Moderate</h4>
+                </div>
+                <div class="cards1">
+                     <h4>Sunrise & SUNSET</h4>
+                     <div class="sun">
+                     <div class="sun-inner"><div class="sunrise">
+                    </div>
+                    <h4 id="suns">06:52 AM</h4></div>
+                    <div class="divider"></div>
+                    <div class="sun-inner"> <div class="sunset">
+                    </div>
+                    <h4 id="sunss">05:36 PM</h4></div>
+                    </div>
+                </div>
+                <div class="cards1">
+                    <h4>Humidity</h4>
+                    <div class="water-drop"></div>
+                    <h2 id="humidity">55<span>%</span></h2>
+                    <h4 id="dew">Dew point is 7°C</h4>
+                </div>
+                <div class="cards1">
+                    <h4>Visibility</h4>
+                    <div class="eye-shape"></div>
+                    <h2 id="visible">4.0<span>km</span></h2>
+                    <h4>Moderate visibility</h4>   
+                </div>
+                <div class="cards1">
+                    <h4>Feels Like</h4>
+                    <div class="cloud"></div>
+                    <h2 id="feels">14<span>°C</span></h2>
+                    <h4>Similar to actual temperature</h4> 
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
