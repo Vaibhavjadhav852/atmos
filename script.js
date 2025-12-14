@@ -164,7 +164,7 @@ function setWeather(data){
      atmosphere.innerHTML = data.weather[0].main
      temp.innerHTML = Math.round(data.main.temp) + '°C'
       loca.innerHTML = data.name + ' '+ data.sys.country
-      day.innerHTML = sunrise.day + ',  ' + sunrise.month +' '+ sunrise.date + ', '+ sunrise.year + ' At ' + sunrise.time;
+      day.innerHTML = sunrise.day + ',  ' + sunrise.month +' '+ sunrise.date + ', '+ sunrise.year;
       windd.innerHTML = Math.round(data.wind.speed * 3.6) +' '+ 'km/h'
       suns.innerHTML = convertUnixToTime(data.sys.sunrise)
       sunss.innerHTML = convertUnixToTime(data.sys.sunset)
